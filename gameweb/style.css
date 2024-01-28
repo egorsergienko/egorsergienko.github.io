@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #121111;
+}
+
+.container-top {
+    background: url(img/dishonored2.jpg);
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo__ds2 {
+    margin-right: 100px;
+    width: 550px;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 17px);
+    height: 100vh;
+    display: flex;
+    background: #000000;
+    color: #fff;
+}
+
+.main-right > h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 18px;
+    width: 550px;
+    color: #e2e2e2;
+    line-height: 28px;
+}
+
+.button__link:hover {
+    color: #716d6d;
+}
+
+
+.button__link {
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.gallery {
+    background: #000000;
+    height: 100vh;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.gallery__img {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    object-fit: cover;
+    
+}
+
+.gallery__img:hover {
+    transform:scale(1.05);
+}
+
+.wrapper {
+   background: #000000;
+}
+
+
+.footer {
+    background: #121111;
+    color: white;
+}
+
+.button-footer2 {
+    color: #ffffff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.button-footer2:hover {
+    color: #969696;
+}
+
+
+.rights {
+    margin-left: 20px;
+}
